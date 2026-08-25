@@ -1,9 +1,11 @@
+import java.util.Arrays;
 public class BubbleSort{
     public static void main(String[] args){
         int[] arr = {2,8,3,9,1,4};
-        int[] result = bubbleSort(arr);
+        // int[] result = bubbleSort(arr);
+        // Arrays.sort(arr);
         
-        for(int val : result){
+        for(int val : arr){
             System.out.print(val+ " ");
         }
     }
