@@ -1,5 +1,7 @@
 class Solution {
     public char nonRepeatingChar(String s) {
+
+    
         // code here
         int [] arr = new int[26];
         char result = '$';
@@ -18,3 +20,4 @@ class Solution {
         return result;
     }
 }
+
